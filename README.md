@@ -22,22 +22,13 @@ Print()
 ##RegisterNumber: 22001980
 
 import numpy as np
-l1, l2 = [],[]
-r,c= int(input()),int(input())
-for i in range(r):
-    for j in range(c):
-        num=int(input())
-        l1.append(num)
-    l2.append(l1)
-    l1=[]
-print(l2)   
-value1= np.array(l2)
-inverse = np.linalg.inv(value1)
+A=np.array([[6,2,3],[3,1,1],[10,3,4]])
+inverse=np.linalg.inv(A)
 print(inverse)
 ```
 
 ## OUTPUT:
-![Screenshot from 2022-10-10 14-16-58](https://user-images.githubusercontent.com/113497680/194829054-3dccacd4-1633-41e6-94d8-27287c91818c.png)
+![Screenshot from 2022-10-17 11-09-24](https://user-images.githubusercontent.com/113497680/196097558-cdd3d8d6-129a-444f-8c6f-36e9724c901e.png)
 
 
 ## RESULT:
