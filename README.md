@@ -21,9 +21,23 @@ Print()
 ##Developed by:m.d.harini
 ##RegisterNumber: 22001980
 
+import numpy as np
+a,b=int(input()),int(input())
+l1,l2=[],[]
+for i in range(a):
+    for j in range (b):
+        num=l1.append(int(input()))
+    l2.append(l1)
+    l1=[]
+print(l2)
+a1=np.array(l2)
+x=np.linalg.inv(a1)
+print(x)
+
 ```
 
 ## OUTPUT:
+![Screenshot from 2022-10-17 11-19-33](https://user-images.githubusercontent.com/113497680/196099079-53398b6b-31f1-47b3-9691-f57919a4d6ee.png)
 
 
 
