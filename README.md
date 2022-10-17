@@ -11,7 +11,7 @@ Enter the input.
 ### Step 3:
 Use for loop and range.
 ### Step 4:
-Use np.linalg.inv() to find inver of a matrix.
+Use np.linalg.inv() to find inverse of a matrix.
 ### Step 5:
 Print()
 
